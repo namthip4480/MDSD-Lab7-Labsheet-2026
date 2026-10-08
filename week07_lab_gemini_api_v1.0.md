@@ -495,19 +495,17 @@ flutter run
 
 > ✅ **Checkpoint 1.1** ถ่ายภาพหน้าจอ Google AI Studio ที่แสดงรูปภาพที่แนบ Prompt ที่ใช้ และผลลัพธ์ JSON ที่ได้ จากนั้นทดลองรันซ้ำอีก 2 ครั้งด้วยภาพและ Prompt เดิม
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่
-```
+<img width="1366" height="768" alt="Screenshot (951)" src="https://github.com/user-attachments/assets/f40e2224-98d6-4006-b3de-3aad8696e9e3" />
 
 ### ขั้นตอนที่ 1.2: ทดลองเปิดใช้ Structured Output ใน AI Studio
 
 ในแผงตั้งค่าฝั่งขวาของ Google AI Studio เปิดตัวเลือก **Structured Output** เลือกที่ Visual Editor แล้วกำหนด Schema ให้ตรงกับ Field `title`, `category`, `description` ตามที่ใช้ใน Prompt (เลือกประเภทเป็น String ทั้งหมด) รันอีกครั้งด้วยภาพเดิม
 
 > ✅ **Checkpoint 1.2** ถ่ายภาพหน้าจอที่แสดงการตั้งค่า Structured Output และผลลัพธ์ที่ได้ อธิบายว่าผลลัพธ์ที่ได้ต่างจากตอนไม่เปิด Structured Output ในขั้นตอน 1.1 อย่างไร (อ้างอิงบทหนังสือเรียนหัวข้อ 7.4)
+> 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/da64050f-eb45-4474-937a-53f85bc8e39a" />
 
-```text
-บันทึกผลลัพธ์ที่นี่
-```
+<img width="1366" height="768" alt="Screenshot (955)" src="https://github.com/user-attachments/assets/e6978b82-078a-4f14-af76-37925c6e756e" />
 
 ---
 
@@ -532,9 +530,9 @@ flutter run
 
 > ✅ **Checkpoint 2.1** รันแอปด้วยคำสั่ง `flutter run --dart-define=GEMINI_API_KEY=your_key` ถ่ายภาพหน้าจอ Debug Console และหน้า SnackBar ที่แสดงข้อความคำตอบจาก Gemini และอธิบายด้านล่าง ว่า `.timeout()` ที่ตั้งไว้กับ Gemini API (20 วินาที) ต่างจากที่ตั้งไว้กับ OpenWeather API ในสัปดาห์ที่แล้ว (10 วินาที) อย่างไร และทำไมจึงต่างกัน (อ้างอิงบทหนังสือเรียนหัวข้อ 7.3)
 
-```text
-บันทึกผลลัพธ์ที่นี่
-```
+<img width="340" height="662" alt="image" src="https://github.com/user-attachments/assets/6fa368fb-86e0-4f47-b6c0-6d7c854cc9aa" />
+
+<img width="661" height="304" alt="image" src="https://github.com/user-attachments/assets/e4638733-e14e-4f26-be18-375abc5916f2" />
 
 ---
 
